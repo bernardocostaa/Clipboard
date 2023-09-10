@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.bg-header {
+  background: url("/img/bg-header-desktop.png") no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.title-header {
+  color: #4c545d;
+  font-size: 2.875rem;
+  padding-top: 56px;
+  padding-bottom: 1rem;
+}
+
+.p-header {
+  font-size: 1.25rem;
+  color: #9fabb2;
+  line-height: 1.5;
+}
+
+.cont-btn {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 48px;
+  margin-bottom: 150px;
+}
+
+.btn {
+  padding: 13px 36px;
+  font-size: 1.125rem;
+  color: white;
+  border: none;
+  font-weight: 600;
+  outline: none;
+  border-radius: 28px;
+  transition: .3s all;
+  cursor: pointer;
+}
+
+.btn-mac {
+  background: #6173ff;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+
+.btn-mac:hover {
+  opacity: 0.8;
+}
+
+.btn-os {
+  background: #26baa4;
+  box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+
+.btn-os:hover {
+  opacity: 0.8;
+}
+
+.header-info {
+  text-align: center;
+  max-width: 730px;
+  margin: 0 auto;
+  padding-top: 125px;
+}
+
+.header-info img {
+  margin: 0 auto;
+}
+
+.title-main {
+  font-size: 2.25rem;
+  color: #4c545d;
+}
+
+.p-main {
+  font-size: 1.125rem;
+  color: #9fabb2;
+  line-height: 1.5;
+}
+
+.main-cont {
+  max-width: 730px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.area-computer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 110px;
+  left: -20px;
+}
+
+.info-computer {
+  max-width: 350px;
+}
+
+.title-computer {
+  font-size: 1.5rem;
+  color: #4c545d;
+  font-weight: 600;
+}
+
+.p-computer {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #9fabb2;
+}
+
+.info-computer {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}

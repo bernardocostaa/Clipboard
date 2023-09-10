@@ -1,0 +1,130 @@
+$StrongCyan: #26baa4;
+$LightBlue: #6173ff;
+$DarkGrayishBlue: #4c545d;
+$GrayishBlue: #9fabb2;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.bg-header {
+    background: url('/img/bg-header-desktop.png') no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.title-header{
+    color: $DarkGrayishBlue;
+    font-size: 2.875rem;
+    padding-top: 56px;
+    padding-bottom: 1rem;
+}
+
+.p-header{
+    font-size: 1.25rem;
+    color: $GrayishBlue;
+    line-height: 1.5;
+}
+.cont-btn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 48px;
+    margin-bottom: 150px;
+}
+
+.btn{
+    padding: 13px 36px;
+    font-size: 1.125rem;
+    color: white;
+    border: none;
+    font-weight: 600;
+    outline: none;
+    border-radius: 28px;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.btn-mac{
+    background: $LightBlue;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+    &:hover{
+       opacity: 0.8;
+    }
+}
+
+.btn-os{
+    background: $StrongCyan;
+    box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+    &:hover{
+        opacity: 0.8;
+     }
+}
+
+.header-info{
+    text-align: center;
+    max-width: 730px;
+    margin: 0 auto;
+    padding-top: 125px;
+    img{
+        margin:  0 auto;
+    }
+}
+
+.title-main{
+    font-size: 2.25rem;
+    color: $DarkGrayishBlue;
+}
+
+.p-main{
+    font-size: 1.125rem;
+    color: $GrayishBlue;
+    line-height: 1.5;
+}
+
+.main-cont{
+    max-width: 730px;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.area-computer{
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 110px;
+    left: -20px;
+}
+
+.info-computer{
+    max-width: 350px;
+}
+   
+.title-computer{
+    font-size: 1.5rem;
+    color: $DarkGrayishBlue;
+    font-weight: 600;
+}
+
+.p-computer{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $GrayishBlue; 
+}
+
+.info-computer{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}

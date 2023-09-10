@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+:root{
+    --StrongCyan: #26baa4;
+    --LightBlue: #6173ff;
+    --DarkGrayishBlue: #4c545d;
+    --GrayishBlue: #9fabb2;
+}
