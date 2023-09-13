@@ -28,7 +28,7 @@ Link do Projeto: [Clipboard](https://bernardocostaa.github.io/Clipboard/)
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/bernardocostaa/AutoCar/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/bernardocostaa/Clipboard/blob/main/LICENSE) para mais detalhes.
 
 ---
 
